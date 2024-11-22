@@ -42,8 +42,9 @@ const App = () => {
     <Router>
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Dashboard />} />
+       
         <Route path="/doctor/addnew" element={<AddNewDoctor />} />
         <Route path="/admin/addnew" element={<AddNewAdmin />} />
         <Route path="/messages" element={<Messages />} />
